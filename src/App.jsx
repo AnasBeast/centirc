@@ -34,7 +34,7 @@ function App() {
         </div>
       </div>
       {/* Services Table */}
-      <div class="grid gap-4 grid-cols-4 grid-rows-3 pt-24 px-60 text-left">
+      <div class="grid gap-4 grid-cols-4 grid-rows-3 py-24 px-60 text-left">
         <div className='flex gap-2 items-center pb-8'>
           <img src="./assets/icons/Group 189.png" alt="icon" />
           <p className='font-medium text-xl'>30 Days 0% <br /> Commission</p>
@@ -83,6 +83,56 @@ function App() {
           <img src="./assets/icons/Group 189.png" alt="icon" />
           <p className='font-medium text-xl'>Carbon <br /> Calculator</p>
         </div>
+      </div>
+      {/* Brands Section */}
+      <div class="grid gap-16 grid-cols-4 py-8 px-60 " style={{"background": "#E8F4FC"}}>
+        <div className='h-36 bg-white'></div>
+        <div className='h-36 bg-white'></div>
+        <div className='h-36 bg-white'></div>
+        <div className='h-36 bg-white'></div>
+      </div>
+      {/* Introduction */}
+      <div style={{"backgroundImage":`url("./assets/filter-forest.png"),url("./assets/bg-forest.png")`,"backgroundSize":"cover","backgroundRepeat":"no-repeat","backgroundPosition":"center"}}>
+        {/* First Section */}
+        <div className='flex flex-col items-center mx-auto justify-center gap-8 text-white max-w-3xl py-44' >
+          <h2 className='font-medium text-4xl' style={{"color":"#FDF7BF"}}>INTRODUCING...</h2>
+          <h2 className='font-medium text-4xl'>The UAE's First</h2>
+          <h1 className='font-medium text-5xl'>Sustainable Food Delivery App</h1>
+          <p className='text-left leading-8'>
+          Are high delivery costs and wasteful packaging bothering you? Looking for a quick way to reach customers who care about the environment? At Ecocentric, we help UAE restaurants turn their delivery into something that's good for the earth, easy on the budget, and appealing to customers. We've already shown many restaurants how to cut waste, remove packaging costs completely, and boost their earnings - all without a lot of fuss. We've made a big difference for others, and we're ready to do the same for you.
+          </p>
+          <button className="trial-btn px-8 py-4 mt-8">
+            Try Us Free For 30 Days
+          </button>
+        </div>
+        {/* Second Section */}
+        <div className='flex items-center justify-center px-60 bg-white bg-opacity-50'>
+          <div className='flex-1'>
+            <img src="./assets/centric-bag.png" alt="centric-bag" />
+          </div>
+          <div className='flex-1 text-left'>
+            <h1 className='font-bold text-4xl mb-8'>WHY NOW ?</h1>
+            <p className='font-medium text-xl'>The UAE is taking a major stride towards a sustainable future with a sweeping ban on single-use plastic coming into effect in 2024. As a restaurant owner in Dubai, this impending regulation means embracing eco-friendly practices is no longer optional – it's a necessity. By partnering with our food delivery mobile app, you can stay ahead of the curve and position your restaurant as a sustainability champion.</p>
+          </div>
+        </div>
+        {/* Third Section */}
+        <div className='flex items-center justify-center px-48 py-20'>
+          <div className='flex-1'>
+            <img src="./assets/tablet-stats.png" alt="centric-stats" />
+          </div>
+          <div className='flex-1 text-left text-white'>
+            <h1 className='font-bold text-4xl mb-4'>1 Out Of Every 5 People In The UAE </h1>
+            <h1 className='font-bold text-4xl mb-20'>Like To Buy From A Company If It's Eco-Friendly</h1>
+            <p className='font-medium text-xl leading-8'>Becoming a loved, eco-friendly restaurant in the UAE is easier than you'd think. Don't worry if you're unsure about how to start - we've figured it all out for you. Our straightforward plan can quickly transform your restaurant into a green haven. It's not just about being fast, though. By following our guidance, you'll achieve more than just reducing waste and cost. You'll also attract the 1 in 5 UAE customers who favor eco-friendly businesses, which is a win for the planet and your business</p>
+            <button className="trial-btn px-8 py-4 mt-20">
+              Try Us Free For 30 Days
+            </button>
+          </div>
+        </div>
+      </div>
+      {/* Switch Section */}
+      <div>
+        
       </div>
     </div>
   );
