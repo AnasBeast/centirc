@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       {/* <Header/> */}
-      <header className="bg-white h-72 w-full flex items-center justify-center">
+      <header className="bg-white h-52 w-full flex items-center justify-center">
         <svg width="223" height="105" viewBox="0 0 223 105" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M208.006 9.09551C202.652 5.06136 196.303 2.55886 189.637 1.85587C188.406 1.78367 187.118 1.71726 185.761 1.65373C182.859 1.53995 179.958 1.89092 177.167 2.69332C166.127 5.75147 157.759 14.9144 153.355 20.6495C151.431 23.1561 150.25 25.01 149.947 25.3825C149.563 25.8532 148.284 27.5281 146.603 29.7373C143.201 34.2133 138.136 40.9129 135.384 44.5024C133.882 46.839 132.217 49.0662 130.4 51.1674C124.89 57.5061 119.819 60.0993 116.25 61.1302C114.535 61.5347 112.779 61.742 111.017 61.7482C104.89 61.7482 99.0139 59.3142 94.6814 54.9817C90.3489 50.6492 87.915 44.7731 87.915 38.646C87.9188 32.5215 90.3545 26.6491 94.6866 22.3197C99.0186 17.9903 104.893 15.5583 111.017 15.5583C112.564 15.5573 114.107 15.7121 115.623 16.0204L115.759 16.0492C115.993 16.0983 116.221 16.1705 116.452 16.2283C116.822 16.3178 117.162 16.468 117.523 16.5748C119.784 17.3718 132.029 21.4667 138.584 34.6667L147.175 23.3842C139.427 10.7906 130.085 6.22218 122.629 3.67228C118.757 2.33831 114.691 1.65525 110.596 1.65084C100.788 1.64037 91.3762 5.51907 84.4237 12.4367L84.3948 12.4569C80.9728 15.2753 76.7393 20.508 71.7753 27.8544C69.0145 31.9435 66.0228 36.691 62.8232 42.0536V42.0767C62.7134 42.2644 62.6066 42.4377 62.494 42.6254C61.5208 44.257 60.5187 45.7471 59.5051 47.1476C57.8674 49.4156 56.0406 51.5409 54.0443 53.5007C45.2684 61.4796 30.2809 69.0398 4.42383 58.0114C10.8231 69.2304 22.4377 75.982 36.2788 75.982C41.4756 75.9829 46.6144 74.8898 51.3609 72.7738C56.1073 70.6578 60.3552 67.5663 63.8281 63.7003C63.8916 63.6455 63.9667 63.5992 64.0245 63.5444C66.9122 60.7461 72.2315 52.9983 74.8969 49.0045C77.1106 56.7723 81.7947 63.6074 88.2402 68.4751C94.6857 73.3428 102.542 75.9781 110.619 75.982C110.876 75.982 111.124 75.9502 111.381 75.9445C111.638 75.9387 111.959 75.9445 112.262 75.9445C130.668 75.4997 140.851 61.4681 143.089 58.1616C143.857 57.0238 146.629 53.3246 150.019 48.8427C154.868 42.4319 167.057 26.272 167.473 25.6655C171.655 19.7658 176.272 17.4238 180.162 16.3178C180.693 16.185 181.213 16.029 181.756 15.9309C183.084 15.6893 184.431 15.5646 185.781 15.5583C190.133 15.5675 194.392 16.8123 198.063 19.1478C201.365 21.2228 204.086 24.1015 205.973 27.5146C207.859 30.9277 208.849 34.7636 208.849 38.6634C208.849 44.7904 206.415 50.6666 202.083 54.999C197.75 59.3315 191.874 61.7655 185.747 61.7655C183.393 61.7655 183.676 61.6702 183.676 61.6702C183.676 61.6702 166.549 60.6537 158.365 43.1163L149.733 54.4508C156.664 63.3134 164.193 71.7774 179.859 75.4997C181.753 75.9502 183.737 76.0109 185.747 76.0109C195.605 76.0109 205.059 72.095 212.03 65.1247C219.001 58.1543 222.917 48.7004 222.918 38.8424C222.918 33.0668 221.568 27.3711 218.976 22.2095C216.385 17.0479 212.623 12.5632 207.991 9.11283" fill="#0D5954"/>
           <path d="M27.2141 40.2274C53.2329 36.6091 65.4511 24.44 70.2679 17.44C66.4185 12.0399 59.6467 6.02469 53.129 3.17446C43.9094 -0.854053 33.4674 -1.05609 24.0989 2.61278C14.7304 6.28165 7.20254 13.521 3.17059 22.7391C1.00872 27.6815 -0.0710814 33.0292 0.00362837 38.4232C0.0783382 43.8173 1.30583 49.133 3.60375 54.0136C18.7732 60.0779 29.8622 60.54 37.818 58.6341L38.0404 58.5792C38.4938 58.4666 38.9298 58.3395 39.363 58.2124C39.7962 58.0854 40.2033 57.9583 40.6018 57.8197L40.8155 57.7446C52.5168 53.5862 56.242 44.4609 56.242 44.4609C42.9178 55.2121 29.2847 53.5516 21.2076 51.6139C18.5884 50.9179 13.3124 49.0582 12.2988 48.1486C12.2988 48.1486 8.03359 28.4569 25.3371 16.49C38.5111 7.37328 51.3732 13.5011 55.9474 16.282C56.3315 16.5333 57.5791 17.5324 56.6896 19.4586C48.5808 34.0043 27.2344 40.2505 27.2344 40.2505" fill="#4DBA7A"/>
@@ -321,6 +321,7 @@ function App() {
           Try Us Free For 30 Days
         </button>
       </div>
+      {/* TABLE */}
       <div className='py-28' style={{"backgroundImage":`url("./assets/bg-mountain.png")`,"backgroundSize":"100% 100%","backgroundRepeat":"no-repeat"}}>
         <div>
           <h1 className='font-bold text-3xl mb-2'>Why EcoCentric Is</h1>
@@ -377,6 +378,103 @@ function App() {
           Try Us Free For 30 Days
         </button>
       </div>
+      {/* Guarantee */}
+      <div className='flex flex-col items-center justify-center space-y-28 pt-56' style={{"backgroundImage":`url("./assets/bg-mountains.png")`,"backgroundSize":"100% 50%","backgroundRepeat":"no-repeat","backgroundPosition":"top"}}>
+        <img src="./assets/icons/guarentee.svg" alt="guarentee.svg" />
+        <div>
+          <h1 className='font-bold text-3xl mb-2'>The 'EcoCentric 30-Day </h1>
+          <h1 className='font-bold text-4xl'>Green Guarantee'</h1>
+        </div>
+        <p className='font-medium text-2xl text-left max-w-4xl mx-auto'>
+          Try our full suite of services - eco-friendly packaging, carbon calculator, insights, emission-free delivery, and more - for an entire month, absolutely free. Experience the EcoCentric difference with zero risk. If we're not your perfect fit, simply walk away. No hidden fees, no strings attached. Make the leap to a greener, more profitable future today, and see the difference for yourself!
+        </p>
+        <button className="trial-btn3 px-8 py-4">
+          Try Us Free For 30 Days
+        </button>
+        <div className='pt-40'>
+          <h1 className='font-bold text-3xl mb-2'>Frequently Asked</h1>
+          <h1 className='text-[#0D5954] font-bold text-4xl'>Questions</h1>
+        </div>
+        <div className='flex flex-col items-center justify-center space-y-12'>
+          <div className='flex flex-col items-center'>
+            <div className='bg-[#E8F4FC] flex items-center justify-between py-8 px-8 w-2/3 rounded-tr-xl rounded-tl-xl'>
+              <h1 className='text-4xl font-medium'>1. How does EcoCentric help restaurants grow?</h1>
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 22 15" fill="none">
+                <path d="M1.10066 15L20.9012 15C21.1017 14.9994 21.2982 14.9491 21.4696 14.8544C21.641 14.7596 21.7807 14.6242 21.8739 14.4625C21.967 14.3008 22.0099 14.1191 21.9981 13.9368C21.9862 13.7546 21.92 13.5787 21.8066 13.4282L11.9063 0.404972C11.496 -0.134991 10.5081 -0.134991 10.0967 0.404972L0.196437 13.4282C0.0818408 13.5784 0.0146391 13.7543 0.00213288 13.9369C-0.0103733 14.1194 0.0322943 14.3016 0.1255 14.4636C0.218706 14.6257 0.358885 14.7613 0.530807 14.8559C0.702729 14.9504 0.899819 15.0003 1.10066 15Z" fill="black"/>
+              </svg>
+            </div>
+            <div className='bg-[#E8F4FC] bg-opacity-30 flex items-center justify-between py-8 px-8 w-2/3 rounded-br-xl rounded-bl-xl'>
+              <p className='text-2xl font-medium text-left'>
+              EcoCentric helps restaurants increase sales, reach eco-conscious customers, and enhance brand reputation through our sustainable delivery model. By joining us, you tap into a network of customers who prefer to order from environmentally friendly businesses like yours.
+              </p>
+            </div>
+          </div>
+          <div className='flex flex-col items-center'>
+            <div className='bg-[#E8F4FC] flex items-center justify-between py-8 px-8 w-2/3 rounded-tr-xl rounded-tl-xl'>
+              <h1 className='text-4xl font-medium'>2. How can I become an EcoCentric partner?</h1>
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 22 15" fill="none">
+                <path d="M1.10066 15L20.9012 15C21.1017 14.9994 21.2982 14.9491 21.4696 14.8544C21.641 14.7596 21.7807 14.6242 21.8739 14.4625C21.967 14.3008 22.0099 14.1191 21.9981 13.9368C21.9862 13.7546 21.92 13.5787 21.8066 13.4282L11.9063 0.404972C11.496 -0.134991 10.5081 -0.134991 10.0967 0.404972L0.196437 13.4282C0.0818408 13.5784 0.0146391 13.7543 0.00213288 13.9369C-0.0103733 14.1194 0.0322943 14.3016 0.1255 14.4636C0.218706 14.6257 0.358885 14.7613 0.530807 14.8559C0.702729 14.9504 0.899819 15.0003 1.10066 15Z" fill="black"/>
+              </svg>
+            </div>
+            <div className='bg-[#E8F4FC] bg-opacity-30 flex items-center justify-between py-8 px-8 w-2/3 rounded-br-xl rounded-bl-xl'>
+              <p className='text-2xl font-medium text-left'>
+              To become an EcoCentric partner, fill out our simple sign-up form. Ensure to provide a valid phone number and email address. We'll then schedule a convenient date and time to contact you for further approval processes.
+              </p>
+            </div>
+          </div>
+          <div className='flex flex-col items-center'>
+            <div className='bg-[#E8F4FC] flex items-center justify-between py-8 px-8 w-2/3 rounded-tr-xl rounded-tl-xl'>
+              <h1 className='text-4xl font-medium'>3. Is EcoCentric available in my area?</h1>
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 22 15" fill="none">
+                <path d="M1.10066 15L20.9012 15C21.1017 14.9994 21.2982 14.9491 21.4696 14.8544C21.641 14.7596 21.7807 14.6242 21.8739 14.4625C21.967 14.3008 22.0099 14.1191 21.9981 13.9368C21.9862 13.7546 21.92 13.5787 21.8066 13.4282L11.9063 0.404972C11.496 -0.134991 10.5081 -0.134991 10.0967 0.404972L0.196437 13.4282C0.0818408 13.5784 0.0146391 13.7543 0.00213288 13.9369C-0.0103733 14.1194 0.0322943 14.3016 0.1255 14.4636C0.218706 14.6257 0.358885 14.7613 0.530807 14.8559C0.702729 14.9504 0.899819 15.0003 1.10066 15Z" fill="black"/>
+              </svg>
+            </div>
+            <div className='bg-[#E8F4FC] bg-opacity-30 flex items-center justify-between py-8 px-8 w-2/3 rounded-br-xl rounded-bl-xl'>
+              <p className='text-2xl font-medium text-left'>
+              To check if EcoCentric operates in your area, start the sign-up process. If we're currently not present in your area, we'll keep your details and reach out when we expand our operations.
+              </p>
+            </div>
+          </div>
+          <div className='flex flex-col items-center'>
+            <div className='bg-[#E8F4FC] flex items-center justify-between py-8 px-8 w-2/3 rounded-tr-xl rounded-tl-xl'>
+              <h1 className='text-4xl font-medium'>4. What's EcoCentric's delivery radius?</h1>
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 22 15" fill="none">
+                <path d="M1.10066 15L20.9012 15C21.1017 14.9994 21.2982 14.9491 21.4696 14.8544C21.641 14.7596 21.7807 14.6242 21.8739 14.4625C21.967 14.3008 22.0099 14.1191 21.9981 13.9368C21.9862 13.7546 21.92 13.5787 21.8066 13.4282L11.9063 0.404972C11.496 -0.134991 10.5081 -0.134991 10.0967 0.404972L0.196437 13.4282C0.0818408 13.5784 0.0146391 13.7543 0.00213288 13.9369C-0.0103733 14.1194 0.0322943 14.3016 0.1255 14.4636C0.218706 14.6257 0.358885 14.7613 0.530807 14.8559C0.702729 14.9504 0.899819 15.0003 1.10066 15Z" fill="black"/>
+              </svg>
+            </div>
+            <div className='bg-[#E8F4FC] bg-opacity-30 flex items-center justify-between py-8 px-8 w-2/3 rounded-br-xl rounded-bl-xl'>
+              <p className='text-2xl font-medium text-left'>
+              We set our delivery radius within a 15-minute drive time from the location of the restaurant to ensure prompt deliveries while maintaining the quality and freshness of orders.
+              </p>
+            </div>
+          </div>
+          <div className='flex flex-col items-center'>
+            <div className='bg-[#E8F4FC] flex items-center justify-between py-8 px-8 w-2/3 rounded-tr-xl rounded-tl-xl'>
+              <h1 className='text-4xl font-medium'>5. What equipment will I need?</h1>
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 22 15" fill="none">
+                <path d="M1.10066 15L20.9012 15C21.1017 14.9994 21.2982 14.9491 21.4696 14.8544C21.641 14.7596 21.7807 14.6242 21.8739 14.4625C21.967 14.3008 22.0099 14.1191 21.9981 13.9368C21.9862 13.7546 21.92 13.5787 21.8066 13.4282L11.9063 0.404972C11.496 -0.134991 10.5081 -0.134991 10.0967 0.404972L0.196437 13.4282C0.0818408 13.5784 0.0146391 13.7543 0.00213288 13.9369C-0.0103733 14.1194 0.0322943 14.3016 0.1255 14.4636C0.218706 14.6257 0.358885 14.7613 0.530807 14.8559C0.702729 14.9504 0.899819 15.0003 1.10066 15Z" fill="black"/>
+              </svg>
+            </div>
+            <div className='bg-[#E8F4FC] bg-opacity-30 flex items-center justify-between py-8 px-8 w-2/3 rounded-br-xl rounded-bl-xl'>
+              <p className='text-2xl font-medium text-left'>
+              To manage and receive orders from EcoCentric, you'll simply need a device (tablet or desktop) to sign in to our platform. As per municipality requirements, vendors are responsible for the hygiene of the containers, similar to dine-in plates, glasses, or cooking utensils. Therefore, a dishwasher or commercial washer is necessary to maintain container cleanliness.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <footer className='flex flex-col items-center justify-center space-y-8 pt-24 pb-8'>
+        <div>
+          <h1 className='text-3xl font-bold uppercase mb-4'>What Are You Waiting For?</h1>
+          <h1 className='text-4xl font-bold uppercase text-[#0D5954]'>Make The Switch</h1>
+        </div>
+        <button className="trial-btn3 px-8 py-4 mt-20">
+          Try Us Free For 30 Days
+        </button>
+        <img src="./assets/closure.png" alt="flowers" />
+        <h1 className='text-3xl font-bold'>All rights Reserved 2023. You don't want to copy our content. Trust us.</h1>
+      </footer>
     </div>
   );
 }
