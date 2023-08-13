@@ -140,3 +140,8 @@ code {
     line-height: 154%; /* 61.6px */
   }
 }
+
+.rot {
+  -webkit-transform: rotate(180deg);
+  transition: transform 0.5s;
+}
