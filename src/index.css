@@ -65,14 +65,12 @@ code {
 .card{
   background: rgba(13, 89, 84, 0.90);
   border-radius: 13px;
-  width: 414px;
   height: 600px;
   opacity: 0.9;
 }
 .card2{
   background: rgba(74, 186, 120, 0.90);
   border-radius: 13px;
-  width: 414px;
   height: 600px;
   opacity: 0.9;
 }
@@ -80,7 +78,7 @@ code {
   border-radius: 13px;
   background: #E8F4FC;
   box-shadow: 7px 8px 12px 0px rgba(0, 0, 0, 0.25);
-  width: 384px;
+  width: 20vw;
   height: 200px;
   flex-shrink: 0;
   display: flex;
@@ -108,4 +106,37 @@ code {
 }
 #centric-table>.py-8{
   height: 164px;
+}
+
+@media screen and (max-width:786px) {
+  .card,.card2{
+    height: 400px;
+  }
+  #switch{
+    background: none !important;
+  }
+  .card3{
+    width: 60vw;
+  }
+}
+@media screen and (max-width:640px) {
+  .step{
+    background: none !important;
+  }
+  .trial-btn{
+    font-size: 30px;
+    line-height: 154%; /* 61.6px */
+  }
+  .trial-btn2{
+    font-size: 30px;
+    line-height: 154%; /* 61.6px */
+  }
+  .trial-btn3{
+    font-size: 30px;
+    line-height: 154%; /* 61.6px */
+  }
+  .trial-btn4{
+    font-size: 30px;
+    line-height: 154%; /* 61.6px */
+  }
 }
